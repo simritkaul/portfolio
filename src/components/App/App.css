@@ -1,0 +1,14 @@
+body {
+    min-height: 100vh;
+    box-sizing: border-box;
+    margin: 0;
+    width: 100%;
+    overflow-x: hidden;
+    font-family: 'Poppins', sans-serif;
+    color: aliceblue;
+    background: #00031a;
+}
+
+input:focus, textarea.focus, select:focus {
+    outline: none;
+}

@@ -1,0 +1,28 @@
+.go-home-btn {
+    position: fixed;
+    bottom: 28px;
+    right: 28px;
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    box-shadow: 0px 2px 32px rgba(255, 255, 255, 0.15);
+    border: none;
+}
+
+.go-home-btn:hover {
+    cursor: pointer;
+    box-shadow: 0px 5px 32px rgba(255, 255, 255, 0.45);
+    transition: 0.3s ease-in-out;
+}
+
+.white-bg {
+    background: white;
+}
+
+.grad-bg {
+    background: linear-gradient(39.97deg, #0366fc 0.79%, #0045ad 79.29%);
+}
+
+.btn-img {
+    width: 40px;
+}

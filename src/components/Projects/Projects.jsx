@@ -3,8 +3,8 @@ import './Projects.css';
 
 const Projects = () => {
     return (
-        <div>
-            <h1>Projects page</h1>
+        <div className="section-container">
+            <h1>Projects</h1>
         </div>
     )
 }

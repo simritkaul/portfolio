@@ -1,0 +1,62 @@
+.skill-card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 80px 20%;
+}
+
+.skill {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.skill > img {
+    width: 108px;
+    margin-bottom: 15px;
+    filter: drop-shadow(0px 2px 2px rgba(255, 255, 255, 0.2));
+    transition: 0.2s;
+}
+
+.skill > img:hover {
+    filter: drop-shadow(0px 4px 4px rgba(255, 255, 255, 0.5));
+}
+
+.skill > p {
+    font-family: Montserrat;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: -0.015em;
+    color: aliceblue;
+}
+
+.skills-vector-frame {
+    position: absolute;
+    display: flex;
+    flex-direction: row-reverse;
+    z-index: -10;
+    right: 0;
+    bottom: 0;
+    width: 80%;
+}
+
+.skills-vector {
+    max-height: 100%;
+    max-width: 100%;
+    opacity: 0.1;
+}
+
+/* Small Screen sizes */
+
+@media only screen and (max-width: 640px) {
+    .vector-frame {
+        width: 90%;
+    }
+
+    .skill-card-container {
+        margin: 80px 10%;
+    }
+}

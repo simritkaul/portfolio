@@ -2,11 +2,34 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import './Home.css';
 import homeAnime from '../../assets/home_anime.gif';
+import Modal from '../Modal/Modal';
 
 class Home extends Component {
+
+    state = {
+        showModal: false
+    }
+
+    // Lifecycle method // (Same as useEffect?)
+    componentDidMount() {
+        setTimeout(() => {
+            this.setState({
+                showModal: true
+            })
+        }, 2500)
+    }
+
+    closeModal = () => {
+        this.setState({
+            showModal: false
+        })
+    }
+
     render() {
         return (
             <div className="home-container">
+                {/* <Modal /> */}
+                {this.state.showModal && <Modal closeModal= {this.closeModal}/>}
                 <div className="header-text">
                     <h1>Welcome to my Portfolio</h1>
                     <p>I am Simrit! A learner</p>

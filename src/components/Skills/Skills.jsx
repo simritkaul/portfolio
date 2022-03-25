@@ -18,7 +18,7 @@ const Skills = () => {
                 {
                     skillList.map(({skillName, skillUrl}) => {
                         return (
-                            <SkillCard skillName={skillName} skillUrl= {skillUrl}/>
+                            <SkillCard key= {skillName} skillName={skillName} skillUrl= {skillUrl}/>
                         )
                     })
                 }

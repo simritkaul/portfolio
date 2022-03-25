@@ -15,11 +15,11 @@ const App = () => {
             <BrowserRouter>
                 <div>
                     <NavBar />
-                    <Route path='/' component={Home} exact />
-                    <Route path='/about' component={About} />
-                    <Route path='/projects' component={Projects} />
-                    <Route path='/skills' component={Skills} />
-                    <Route path='/contact' component={Contact} />
+                    <Route key= 'home' path='/' component={Home} exact />
+                    <Route key= 'about' path='/about' component={About} />
+                    <Route key= 'projects' path='/projects' component={Projects} />
+                    <Route key= 'skills' path='/skills' component={Skills} />
+                    <Route key= 'contact' path='/contact' component={Contact} />
                     <GoHome />
                 </div>
             </BrowserRouter>

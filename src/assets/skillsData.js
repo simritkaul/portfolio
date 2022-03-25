@@ -1,42 +1,34 @@
 export const skillList = [
     {
         skillName: 'C++',
-        skillUrl: 'https://drive.google.com/uc?export=view&id=1A1yRvxzHnIZ-OYBLXKWCL5nE_A3jrACx',
+        skillUrl: 'https://i.imgur.com/WBT0InA.png',
     },
     {
         skillName: 'Python',
-        skillUrl: 'https://drive.google.com/uc?export=view&id=17soEYkDB4zAkzxa7MZZI3E1YWKfE8uDX',
+        skillUrl: 'https://i.imgur.com/Ifoz5pR.png',
     },
     {
         skillName: 'HTML',
-        skillUrl: 'https://drive.google.com/uc?export=view&id=1C1mF6DJ131Z2WjW11SDZHWoFNaRED-XH',
+        skillUrl: 'https://i.imgur.com/wThjlK2.png',
     },
     {
         skillName: 'CSS',
-        skillUrl: 'https://drive.google.com/uc?export=view&id=1EKVZ7IHSrp5DQW_KAZMSAWg-xAMkyuv2',
+        skillUrl: 'https://i.imgur.com/XrPqk5l.png',
     },
     {
         skillName: 'JavaScript',
-        skillUrl: 'https://drive.google.com/uc?export=view&id=1dCx82YIBK7DTN3IMn4cWhu_m8bIuzIQh',
+        skillUrl: 'https://i.imgur.com/Aggumr6.png',
     },
     {
         skillName: 'React',
-        skillUrl: 'https://drive.google.com/uc?export=view&id=1VD1i-UYP05EAkI-4Ufb53WFC7LmDXVQ7',
+        skillUrl: 'https://i.imgur.com/zXD641i.png',
     },
     {
         skillName: 'Tensorflow',
-        skillUrl: 'https://drive.google.com/uc?export=view&id=1wHlNrBCCQswKyjoQgmt5DjjLKeiX76n9',
+        skillUrl: 'https://i.imgur.com/CYoQ98n.png',
     },
     {
         skillName: 'Java',
-        skillUrl: 'https://drive.google.com/uc?export=view&id=1f6gCh0ay2mM0Tulb0ohnydHsGls2tMgl',
-    },
-    {
-        skillName: 'C#',
-        skillUrl: 'https://madhavbahl.tech/portfolio-assets/cs.png',
-    },
-    {
-        skillName: 'MongoDB',
-        skillUrl: 'https://madhavbahl.tech/portfolio-assets/mongo.png',
+        skillUrl: 'https://i.imgur.com/2AVQJHe.png',
     },
 ];

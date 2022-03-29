@@ -11,7 +11,7 @@ class GoHome extends React.Component {
 
     navToHome = () => {
         const {history} = this.props;
-        history.push('/portfolio');
+        history.push('/');
 
         // The history object is like a stack
         // So it now shows the topmost element that is the home page
@@ -20,7 +20,7 @@ class GoHome extends React.Component {
     render() {
 
         const { pathname } = this.props.location;
-        const whiteBtn = pathname === '/portfolio'; 
+        const whiteBtn = pathname === '/'; 
 
         return (
         <button onClick={this.navToHome} className={`go-home-btn ${whiteBtn?'white-bg':'grad-bg'}`}>

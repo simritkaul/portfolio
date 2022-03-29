@@ -18,7 +18,7 @@ const Modal = ({closeModal}) => {
                     </div>
                     <div className="lower-section">
                         <a className="modal-btn btn-red" onClick={() => closeModal()}>Close</a>
-                        <a href="https://github.com/simritkaul/flashtype" target="_blank" rel="noreferrer" className="modal-btn btn-green">Start</a>
+                        <a href="https://github.com/simritkaul/portfolio" target="_blank" rel="noreferrer" className="modal-btn btn-green">Start</a>
                     </div>
                 </div>
             </div>,

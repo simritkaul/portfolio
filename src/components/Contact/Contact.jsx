@@ -38,7 +38,7 @@ const Contact = () => {
 
             {/* Social icons */}
             <div className="social-icons-container">
-                <a href="https://github.com/simritkaul" className='social-icon'>
+                <a href="http://simritkaul.github.io/portfolio" className='social-icon'>
                     <img src={website} alt="social" />
                 </a>
                 <a href="https://www.linkedin.com/in/simrit-kaul-11409714b" className='social-icon'>

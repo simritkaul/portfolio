@@ -15,7 +15,7 @@ const App = () => {
             <BrowserRouter>
                 <div>
                     <NavBar />
-                    <Route key= 'home' path='/' component={Home} exact />
+                    <Route key= 'home' path='/portfolio' component={Home} exact />
                     <Route key= 'about' path='/about' component={About} />
                     <Route key= 'projects' path='/projects' component={Projects} />
                     <Route key= 'skills' path='/skills' component={Skills} />

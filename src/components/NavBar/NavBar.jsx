@@ -9,7 +9,7 @@ class NavBar extends React.Component {
 
         const { pathname } = this.props.location;
 
-        const homeClass = pathname === '/' ? 'active-item' : '';
+        const homeClass = pathname === '/portfolio' ? 'active-item' : '';
         const aboutClass = pathname === '/about' ? 'active-item' : '';
         const projectsClass = pathname === '/projects' ? 'active-item' : '';
         const skillsClass = pathname === '/skills' ? 'active-item' : '';
@@ -25,7 +25,7 @@ class NavBar extends React.Component {
                 <a id="Projects" className="menu-item" href="/Projects">Projects</a>
                 <a id="Skills" className="menu-item" href="/Skills">Skills</a>
                 <a id="contact" className="menu-item" href="/contact">Contact</a> */}
-                <Link to='/' className= {`menu-item ${homeClass}`}>
+                <Link to='/portfolio' className= {`menu-item ${homeClass}`}>
                     Home
                 </Link>
                 <Link to='/about' className= {`menu-item ${aboutClass}`}>

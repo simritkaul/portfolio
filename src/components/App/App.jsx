@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Route } from 'react-router-dom';
+import { BrowserRouter, Route, Redirect } from 'react-router-dom';
 import About from '../About/About';
 import Contact from '../Contact/Contact';
 import GoHome from '../GoHome/GoHome';
@@ -12,9 +12,12 @@ import './App.css';
 const App = () => {
     return (
         <div>
-            <BrowserRouter basename='/'>
+            <BrowserRouter>
                 <div>
                     <NavBar />
+                    <Route key= 'start' exact path= '/portfolio'>
+                        <Redirect to= '/' />
+                    </Route>
                     <Route key= 'home' path='/' component={Home} exact />
                     <Route key= 'about' path='/about' component={About} />
                     <Route key= 'projects' path='/projects' component={Projects} />

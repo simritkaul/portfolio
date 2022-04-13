@@ -24,12 +24,13 @@
     text-align: center;
     letter-spacing: 0.2px;
     margin: 10px;
+    margin-top: -20px;
 }
 
 .header-text > p {
     font-style: normal;
     font-weight: 600;
-    font-size: 16px;
+    font-size: 30px;
     line-height: 20px;
     margin: 10px;
 }
@@ -90,6 +91,11 @@
 .home-anime {
     width: 500px;
     margin-bottom: -100px;
+}
+
+.typewriting-container {
+    font-size: 24px;
+    margin: 16px 0;
 }
 
 /* For small height screen sizes */

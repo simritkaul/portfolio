@@ -1,0 +1,86 @@
+.publication-cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 42px;
+    align-self: center;
+    justify-content: center;
+}
+
+.publication-card {
+    width: 500px;
+    min-height: 500px;
+    background: #071646;
+    box-shadow: 0px 4px 4px rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.publication-card:hover {
+    transition: 0.3s ease-in-out;
+    box-shadow: 0px 8px 8px rgba(255, 255, 255, 0.2);
+}
+
+
+.publication-link {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.publication-link:hover {
+    transition: 0.3s ease-in-out;
+    text-decoration: underline;
+    color: aliceblue;
+}
+
+.details-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-self: flex-start;
+    padding: 20px;
+}
+
+.project-heading {
+    font-size: 24px;
+    margin: 0;
+}
+
+.journal-heading {
+    font-size: 18px;
+}
+
+.project-desc {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+    color: aliceblue;
+}
+
+@media only screen and (max-width: 640px) {
+    .publication-cards-container {
+        padding: 20px;
+    }
+
+    .publication-card {
+        width: 280px;
+        min-height: 400px   ;
+    }
+
+    .project-heading {
+        font-size: 16px;
+        margin: 0;
+    }
+    
+    .journal-heading {
+        font-size: 12px;
+    }
+    
+    .project-desc {
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 14px;
+        color: aliceblue;
+    }
+}

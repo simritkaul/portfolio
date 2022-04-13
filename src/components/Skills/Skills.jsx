@@ -25,9 +25,9 @@ const Skills = () => {
             </div>
 
             <Footer 
-                text="Get in "
-                link= "touch"
-                address= "/contact"
+                text="Check out my "
+                link= "published work"
+                address= "/publications"
             />
 
             <div className="skills-vector-frame">

@@ -28,6 +28,10 @@ export const skillList = [
         skillUrl: 'https://i.imgur.com/CYoQ98n.png',
     },
     {
+        skillName: 'Open CV',
+        skillUrl: 'https://i.imgur.com/oKET2X9.png',
+    },
+    {
         skillName: 'Java',
         skillUrl: 'https://i.imgur.com/2AVQJHe.png',
     },
